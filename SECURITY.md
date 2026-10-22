@@ -26,7 +26,7 @@ in the repo, so this file contains redacted content only.
 | ID | Title | Severity | Status | Fix |
 |---|---|---|---|---|
 | A-1 | CI workflow had no explicit `permissions:` block, so `GITHUB_TOKEN` scope depended on repo/org defaults | low (hardening) | confirmed (static) | **fixed**: `permissions: contents: read`, `persist-credentials: false` |
-| A-2 | Third-party actions pinned by tag (`@v4`, `@v5`) rather than commit SHA | low (hardening) | confirmed (static) | open: pin to SHAs before the repo goes public |
+| A-2 | Third-party actions pinned by tag (`@v4`, `@v5`) rather than commit SHA | low (hardening) | confirmed (static) | **fixed 2026-10-22**: pinned to full commit SHAs with `# vX` comments, resolved via `git ls-remote` of the tag and checked against GitHub |
 | A-3 | Planned: agents under test execute model-chosen tool calls; without a sandbox a tool could touch the host FS/network | medium (design) | hypothesis, runner not built | proposed: tools are pure-Python fakes or run in a no-network container with a temp dir; add tests that deny out-of-scope paths |
 
 No critical, high or medium findings were substantiated in the inspected scope. That does not mean
