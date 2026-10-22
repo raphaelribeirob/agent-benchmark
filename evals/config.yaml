@@ -1,0 +1,11 @@
+# Placeholder - runner not implemented (TODO).
+tasks: data/tasks/          # TODO: RIVER TEST-derived tasks
+conditions: [no_self_correction, self_correction]
+model: ollama/qwen2.5:7b    # TBD
+seeds: [1234, 1235, 1236]
+repeats: 3
+budget:
+  max_steps: 20
+  max_self_corrections: 2
+metrics: [success_rate, cost_usd, latency_s, failure_taxonomy, reproducibility]
+report_dir: reports/
