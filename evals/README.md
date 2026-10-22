@@ -9,6 +9,7 @@ Status: **TODO. The spec starts after 2026-11-15. No runs, no numbers.**
 - **Metrics per condition:** success rate, cost (tokens, then USD), latency (median / p95),
   failure taxonomy counts (`src/agent_benchmark/results.py`), and reproducibility (variance across
   seeds and repeats, with pinned model and harness versions).
+- **Model:** qwen2.5:7b via local Ollama (zero cost).
 - **Harness:** reuse the Eval Lab runner (TODO: link the repo once it is published).
 - **Later:** possibly merge an AI Security track (prompt injection, tool misuse).
 

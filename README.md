@@ -23,6 +23,10 @@ for their workload. Also reviewers evaluating evaluation rigor.
 ## Demo
 TODO: sample report table and a terminal recording of one run.
 
+## Model
+The official model is **qwen2.5:7b, run locally with Ollama** (`ollama pull qwen2.5:7b`), at zero cost.
+Cost is reported as token counts, and USD is $0.
+
 ## Architecture
 Task loader -> agent runner (tool registry, step budget, optional self-correction loop) ->
 checker -> `RunResult` records -> aggregator/report. The runner reuses the Eval Lab harness (TODO).
@@ -38,5 +42,5 @@ See [evals/README.md](evals/README.md). **TODO: no runs yet.**
 ## Limitations
 - Task source (RIVER TEST) and license not confirmed yet.
 - Eval Lab harness not yet linked.
-- Local small models limit how far the results generalize. Results will be reported per model.
+- A single local model (qwen2.5:7b) limits how far the results generalize.
 - The security track (prompt injection, tool misuse) is out of scope for v0.

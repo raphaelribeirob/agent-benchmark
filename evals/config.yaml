@@ -1,7 +1,8 @@
 # Placeholder - runner not implemented (TODO).
 tasks: data/tasks/          # TODO: RIVER TEST-derived tasks
 conditions: [no_self_correction, self_correction]
-model: ollama/qwen2.5:7b    # TBD
+model: ollama/qwen2.5:7b    # official (decided 2026-10-22), local, $0
+cost_model: zero_local      # cost reported as tokens; USD = 0
 seeds: [1234, 1235, 1236]
 repeats: 3
 budget:

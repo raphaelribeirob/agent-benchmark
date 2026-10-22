@@ -41,7 +41,7 @@ One model, one task suite, two conditions, three seeds, a markdown report. It wi
 include a leaderboard site, multi-model sweeps or the security track.
 
 ## Technologies to Demonstrate
-- LLM: local via Ollama (TBD model)
+- LLM: qwen2.5:7b via local Ollama (official, $0)
 - Agents/tools: tool registry, step budget, self-correction loop
 - Evaluation: Eval Lab harness, failure taxonomy, reproducibility stats
 - Tests: pytest with a deterministic fake model
