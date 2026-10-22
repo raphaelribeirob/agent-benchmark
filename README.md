@@ -1,5 +1,9 @@
 # agent-benchmark
 
+![Status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-orange)
+
+> **Status: work in progress.** All results and metrics are TODO; no numbers have been measured yet.
+
 A public, reproducible benchmark of tool-using LLM agents. It compares the same agent **with and
 without self-correction** on success, cost, latency and failure types.
 
