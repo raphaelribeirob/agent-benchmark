@@ -44,3 +44,6 @@ See [evals/README.md](evals/README.md). **TODO: no runs yet.**
 - Eval Lab harness not yet linked.
 - A single local model (qwen2.5:7b) limits how far the results generalize.
 - The security track (prompt injection, tool misuse) is out of scope for v0.
+
+## Agent docs
+`AGENTS.md` (agent rules), `SECURITY.md` (security review), `HARNESS.md` (agent-harness evaluation). Gates and templates are adapted from vibe-coding-toolkit (Matheus Gomes, MIT, commit 790a895).
