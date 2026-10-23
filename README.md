@@ -20,7 +20,7 @@ Engineers who build agent features and need to decide whether self-correction is
 for their workload. Also reviewers evaluating evaluation rigor.
 
 ## Input / Output
-- **Input:** a task suite (RIVER TEST-based, TBD), an agent config, a model, seeds and budgets.
+- **Input:** a tool-use task suite (TBD), an agent config, a model, seeds and budgets.
 - **Output:** per-run records and an aggregate report per condition: success rate, cost, latency
   and failure-taxonomy counts, plus variance across seeds.
 
@@ -44,10 +44,10 @@ TODO: checker tests, deterministic fake-model end-to-end test.
 See [evals/README.md](evals/README.md). **TODO: no runs yet.**
 
 ## Limitations
-- Task source (RIVER TEST) and license not confirmed yet.
+- Tool-use task suite source and license not confirmed yet.
 - Eval Lab harness not yet linked.
 - A single local model (qwen2.5:7b) limits how far the results generalize.
 - The security track (prompt injection, tool misuse) is out of scope for v0.
 
 ## Agent docs
-`AGENTS.md` (agent rules), `SECURITY.md` (security review), `HARNESS.md` (agent-harness evaluation). Gates and templates are adapted from vibe-coding-toolkit (Matheus Gomes, MIT, commit 790a895).
+`AGENTS.md` (contributor guide), `SECURITY.md` (security review), `HARNESS.md` (agent-harness evaluation). Gates and templates are adapted from vibe-coding-toolkit (Matheus Gomes, MIT, commit 790a895).

@@ -14,10 +14,10 @@ Job descriptions (URLs checked live on 2026-10-22, HTTP 200 with the matching jo
 - Baseten, AI Engineer: https://jobs.ashbyhq.com/baseten/b13ec426-d09d-4122-8112-cf25adbd7d60
 - WRITER, AI Engineer: https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d
 
-Source of the list: `/workspace/career/ai-engineer-pivot-2026-10-22.md`.
+Source of the list: private career notes (not published).
 TODO: quote the agent and eval requirements from each posting.
 
-Internal context: `/workspace/career/portfolio-roadmap.md` (deliverable, due 2026-12-20).
+Target date for the public deliverable: 2026-12-20.
 
 ## Problem
 - **User:** an engineer deciding whether to enable self-correction in an agent.
@@ -29,7 +29,7 @@ Internal context: `/workspace/career/portfolio-roadmap.md` (deliverable, due 202
   tolerance. Every failure is classified.
 
 ## Selected Project
-Benchmark with vs without self-correction on RIVER TEST-based tasks.
+Benchmark with vs without self-correction on a tool-use task suite.
 
 # Build Plan
 ## Timeline
@@ -49,6 +49,6 @@ include a leaderboard site, multi-model sweeps or the security track.
 - Deployment/demo: public GitHub repo + report (later, no publishing yet)
 
 ## Open Decisions
-- What exactly RIVER TEST is, and its license.
+- Which tool-use task suite to adopt, and its license.
 - Eval Lab repo location.
 - Whether and when to merge the AI Security Benchmark.

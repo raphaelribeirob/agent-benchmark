@@ -1,7 +1,7 @@
 # Data
 
-**Task set: TBD.** It will be based on RIVER TEST. The source, format and license still need
-Raphael's confirmation. No RIVER TEST files were found in `/workspace` on 2026-10-22.
+**Task set: TBD.** It will be a tool-use task suite. The source, format and license still need
+to be confirmed.
 
 Planned layout:
 - `data/tasks/`: one task per file (prompt, available tools, success checker, budget).

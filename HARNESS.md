@@ -17,7 +17,7 @@ reproduce its algorithm, or reproduce its benchmark results.
 | Setup reapplication / shared-resource conflict / pause-resume | **not run** | needs an independent context |
 | Disposable copy removed | done | |
 
-Client/model: Grok Bot executor (the exact model is not observable). Tokens were not observed.
+Client/model: an AI coding agent (the exact model is not observable). Tokens were not observed.
 No improvement trial was started: no instruction, memory or tool-use failure has been observed in
 this repo yet. Prompt 15 forbids inventing one.
 
